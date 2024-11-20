@@ -46,7 +46,7 @@ the VITE_TOKEN_SERVER_URL to the full url of such server.
 Run `npm install`
 
 # Config
-Copy `.env.example` to `.env.local` and add your local values
+Copy `environment/.env.example` to `environment/.env.local` and add your local values
 ```
 VITE_TOKEN_SERVER_URL=/api
 VITE_API_URL=https://demo-api.incodesmile.com
