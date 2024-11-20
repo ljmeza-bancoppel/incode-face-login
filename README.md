@@ -74,3 +74,10 @@ just remember to serve with https.
 # Author
 
 © Incode Technologies Inc. All rights reserved.
+
+# References
+
+- [Deploy Vite React App to GitHub Pages (2024)](https://www.youtube.com/watch?v=Bk28snjHr7c)
+- [GitHub actions environment variables are not loaded in Vite build](https://stackoverflow.com/a/78649696/1006079)
+- [Env Variables and Modes](https://v4.vitejs.dev/guide/env-and-mode.html)
+- [Building and testing Node.js](https://docs.github.com/en/actions/use-cases-and-examples/building-and-testing/building-and-testing-nodejs)
