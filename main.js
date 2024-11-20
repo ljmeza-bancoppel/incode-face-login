@@ -23,6 +23,8 @@ function identifyUser(identityId) {
         console.log("customerId:", customerId);
         console.log("email:", email);
 
+        finish(customerId, email, token, transactionId, interviewToken, faceMatch);
+
         // User has an Incode Identity.
         // Verify using your backend that the faceMatch was actually valid and
         // not man in the middle attack
@@ -55,8 +57,8 @@ function identifyUser(identityId) {
   });
 }
 
-function finish(customerId, email) {
-  mainContainer.innerHTML = `Sucessfull Login:<br/>\n<div>CustomerId: ${customerId}</div>\n<div>Email: ${email}</div>`;
+function finish(customerId, email, token, transactionId, interviewToken, faceMatch) {
+  mainContainer.innerHTML = `Sucessfull Login:<br/>\n<div>CustomerId: ${customerId}</div>\n<br/><div>Email: ${email}</div>\n<br/><div>token: ${token}</div>\n<br/><div>transactionId: ${transactionId}</div>\n<br/><div>interviewToken: ${interviewToken}</div>\n<br/><div>faceMatch: ${faceMatch}</div>`;
 }
 
 async function app() {
