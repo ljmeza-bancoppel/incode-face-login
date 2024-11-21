@@ -19,7 +19,11 @@ html, body {
 }
 
 #app {
-    flex-grow: 1;
+    /*flex-grow: 1;*/
+}
+
+#app #result {
+    overflow-wrap: break-word;
 }
 
 
