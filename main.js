@@ -29,8 +29,8 @@ function identifyUser(identityId) {
 
           setTimeout(() => {
             finish(customerId, email, token, transactionId, interviewToken, faceMatch);
-            console.log("Waited for 5 seconds");
-          }, 5000);
+            console.log("Waited for 1 seconds");
+          }, 1000);
 
           // User has an Incode Identity.
           // Verify using your backend that the faceMatch was actually valid and
@@ -52,8 +52,8 @@ function identifyUser(identityId) {
         } else {
           setTimeout(() => {
             showError(new Error("Face did not match any user."));
-            console.log("Waited for 5 seconds");
-          }, 5000);
+            console.log("Waited for 1 seconds");
+          }, 1000);
         }
       },
       onError: error => {
